@@ -67,6 +67,17 @@ Giving coding agents real tools instead of guesswork.
 
 [**Unearth**](https://github.com/MarcelRoozekrans/Unearth) — a read-only data-recovery and disk-forensics toolkit in pure Rust. Filesystem-aware undelete across FAT, exFAT, NTFS, ext2/3/4 and HFS+, signature carving of 150+ formats, lost-partition recovery — drivable from the shell or by an agent over MCP.
 
+## GitHub activity
+
+<p align="center">
+  <img height="380" alt="GitHub stats" src="https://ghstats.dev/api/card?username=MarcelRoozekrans&amp;hide=followers,issues&amp;border_radius=8&amp;bg=0b1120&amp;text=cbd5e1&amp;title_color=22d3ee&amp;icon_color=22d3ee&amp;border_color=1e293b">
+  <img height="380" alt="Most used languages" src="https://ghstats.dev/api/langs?username=MarcelRoozekrans&amp;layout=donut_vertical&amp;max_langs=8&amp;border_radius=8&amp;bg=0b1120&amp;text=cbd5e1&amp;title_color=22d3ee&amp;icon_color=22d3ee&amp;border_color=1e293b">
+</p>
+
+<p align="center">
+  <sub>Cards by <a href="https://ghstats.dev">ghstats.dev</a> — regenerated on every page load.</sub>
+</p>
+
 ## Sponsor
 
 If my open source work saves you time, consider sponsoring to help me keep maintaining and building more.
