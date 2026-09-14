@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <strong>130+</strong> NuGet packages &nbsp;·&nbsp; <strong>500K+</strong> downloads &nbsp;·&nbsp; <strong>4</strong> MCP servers
+  <strong>210+</strong> NuGet packages &nbsp;·&nbsp; <strong>840K+</strong> downloads &nbsp;·&nbsp; <strong>5</strong> MCP servers
 </p>
 
 ---
@@ -35,7 +35,7 @@ A 96-package ecosystem where every dispatch, registration, mapping and validatio
 | [**EventSourcing**](https://github.com/ZeroAlloc-Net/ZeroAlloc.EventSourcing) [![v](https://img.shields.io/nuget/v/ZeroAlloc.EventSourcing?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.EventSourcing) | Event streams, projections and aggregates, generated |
 | [**Templates**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Templates) [![v](https://img.shields.io/nuget/v/ZeroAlloc.Templates?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.Templates) | `dotnet new` Clean Architecture API wiring 10 of the packages together |
 
-<sub>Plus Rest, Saga, Outbox, Scheduling, Serialisation, StateMachine, Resilience, Validation, ValueObjects, Results, Collections, Mapping, Telemetry, Specification, Cache, Notify, Flux and more.</sub>
+<sub>Plus Rest, Saga, Outbox, Pipeline, Scheduling, Serialisation, StateMachine, Resilience, Validation, ValueObjects, Results, Collections, Mapping, Telemetry, Specification, Authorization, AsyncEvents, Cache, Notify, Flux, TestHelpers and more.</sub>
 
 ## AI & MCP infrastructure
 
@@ -43,14 +43,15 @@ Giving coding agents real tools instead of guesswork.
 
 | Project | What it does |
 |---|---|
-| [**roslyn-codelens-mcp**](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/roslyn-codelens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) | 57 tools exposing Roslyn semantic analysis to AI agents — call graphs, DI graphs, diagnostics, code fixes |
-| [**memorylens-mcp**](https://github.com/MarcelRoozekrans/memorylens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/memorylens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/memorylens-mcp) | .NET memory profiling via dotMemory, with actionable fix suggestions |
+| [**roslyn-codelens-mcp**](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/roslyn-codelens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) | 67 tools exposing Roslyn semantic analysis to AI agents — call graphs, DI graphs, diagnostics, code fixes, refactoring, test intelligence |
+| [**memorylens-mcp**](https://github.com/MarcelRoozekrans/memorylens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/memorylens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/memorylens-mcp) | .NET memory profiling — in-process heap snapshots, leak heuristics, actionable fix suggestions |
 | [**AI.Sentinel**](https://github.com/MarcelRoozekrans/AI.Sentinel) [![v](https://img.shields.io/nuget/v/AI.Sentinel?style=flat-square&label=)](https://www.nuget.org/packages/AI.Sentinel) | Security middleware for `IChatClient` — 55 detectors for the OWASP LLM Top 10 |
 | [**LongtermMemory-MCP**](https://github.com/MarcelRoozekrans/LongtermMemory-MCP) [![v](https://img.shields.io/npm/v/longterm-memory-mcp?style=flat-square&label=&logo=npm)](https://www.npmjs.com/package/longterm-memory-mcp) | Persistent semantic memory, fully local — SQLite + a local transformer, no API keys |
+| [**Thalos.NET**](https://github.com/MarcelRoozekrans/Thalos.NET) [![v](https://img.shields.io/nuget/v/Thalos.NET?style=flat-square&label=)](https://www.nuget.org/packages/Thalos.NET) | ZeroAlloc-native agent framework on Microsoft Agent Framework, with AI.Sentinel security and MCP tool sources |
+| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) [![v](https://img.shields.io/nuget/v/Rag.NET?style=flat-square&label=)](https://www.nuget.org/packages/Rag.NET) | Modular RAG pipeline on Microsoft.Extensions.AI — 41 packages covering chunking, vector stores, rerankers, data providers, evaluation |
 | [**Copilot-Skill-Bridge**](https://github.com/MarcelRoozekrans/Copilot-Skill-Bridge) | Brings Claude Code marketplace skills into GitHub Copilot |
 | [**superpowers-extensions**](https://github.com/MarcelRoozekrans/superpowers-extensions) | Regression testing, pre-push review and refactor analysis skills for Claude Code |
 | [**lucent-code**](https://github.com/lucent-org/lucent-code) | AI chat & completions for VS Code, driven by the language server |
-| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) | Modular RAG pipeline on Microsoft.Extensions.AI — reranking, redundancy filtering, evaluation |
 
 ## Libraries & analyzers
 
