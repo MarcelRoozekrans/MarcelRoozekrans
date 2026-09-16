@@ -2,7 +2,7 @@
 
 <p align="center">
   Software engineer in the .NET ecosystem — source generators, async libraries,<br>
-  and AI/MCP infrastructure. Based in Heemstede, the Netherlands.
+  and AI/MCP infrastructure. Based in Cruquius, the Netherlands.
 </p>
 
 <p align="center">
