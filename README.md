@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <strong>210+</strong> NuGet packages &nbsp;·&nbsp; <strong>840K+</strong> downloads &nbsp;·&nbsp; <strong>5</strong> MCP servers
+  <strong>225+</strong> NuGet packages &nbsp;·&nbsp; <strong>1.3M+</strong> downloads &nbsp;·&nbsp; <strong>5</strong> MCP servers
 </p>
 
 ---
@@ -22,7 +22,7 @@ I build tools that make other developers faster: compile-time code generation in
 
 ## ZeroAlloc.NET
 
-A 96-package ecosystem where every dispatch, registration, mapping and validation rule is wired at compile time by a Roslyn source generator — no reflection, no boxing, Native AOT safe throughout.
+A 102-package ecosystem where every dispatch, registration, mapping and validation rule is wired at compile time by a Roslyn source generator — no reflection, no boxing, Native AOT safe throughout.
 
 **[github.com/ZeroAlloc-Net](https://github.com/ZeroAlloc-Net)** · **[zeroalloc.net](https://zeroalloc.net)**
 
@@ -48,7 +48,7 @@ Giving coding agents real tools instead of guesswork.
 | [**AI.Sentinel**](https://github.com/MarcelRoozekrans/AI.Sentinel) [![v](https://img.shields.io/nuget/v/AI.Sentinel?style=flat-square&label=)](https://www.nuget.org/packages/AI.Sentinel) | Security middleware for `IChatClient` — 55 detectors for the OWASP LLM Top 10 |
 | [**LongtermMemory-MCP**](https://github.com/MarcelRoozekrans/LongtermMemory-MCP) [![v](https://img.shields.io/npm/v/longterm-memory-mcp?style=flat-square&label=&logo=npm)](https://www.npmjs.com/package/longterm-memory-mcp) | Persistent semantic memory, fully local — SQLite + a local transformer, no API keys |
 | [**Thalos.NET**](https://github.com/MarcelRoozekrans/Thalos.NET) [![v](https://img.shields.io/nuget/v/Thalos.NET?style=flat-square&label=)](https://www.nuget.org/packages/Thalos.NET) | ZeroAlloc-native agent framework on Microsoft Agent Framework, with AI.Sentinel security and MCP tool sources |
-| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) [![v](https://img.shields.io/nuget/v/Rag.NET?style=flat-square&label=)](https://www.nuget.org/packages/Rag.NET) | Modular RAG pipeline on Microsoft.Extensions.AI — 41 packages covering chunking, vector stores, rerankers, data providers, evaluation |
+| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) [![v](https://img.shields.io/nuget/v/Rag.NET?style=flat-square&label=)](https://www.nuget.org/packages/Rag.NET) | Modular RAG pipeline on Microsoft.Extensions.AI — 73 packages covering chunking, vector stores, rerankers, data providers, evaluation |
 | [**Copilot-Skill-Bridge**](https://github.com/MarcelRoozekrans/Copilot-Skill-Bridge) | Brings Claude Code marketplace skills into GitHub Copilot |
 | [**superpowers-extensions**](https://github.com/MarcelRoozekrans/superpowers-extensions) | Regression testing, pre-push review and refactor analysis skills for Claude Code |
 | [**lucent-code**](https://github.com/lucent-org/lucent-code) | AI chat & completions for VS Code, driven by the language server |
