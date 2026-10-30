@@ -1,28 +1,29 @@
 <h1 align="center">Marcel Roozekrans</h1>
 
 <p align="center">
-  Software engineer in the .NET ecosystem — source generators, async libraries,<br>
-  and AI/MCP infrastructure. Based in Cruquius, the Netherlands.
+  .NET engineer building <strong>ZeroAlloc.NET</strong>, compile-time .NET without reflection,<br>
+  and <strong>AI libraries for .NET</strong>: agents, RAG, decisions and security. Based in Cruquius, the Netherlands.
 </p>
 
 <p align="center">
   <a href="https://roozekrans.nl"><img src="https://img.shields.io/badge/roozekrans.nl-0b1120?style=for-the-badge&logo=astro&logoColor=22d3ee" alt="Website"></a>
+  <a href="https://zeroalloc.net"><img src="https://img.shields.io/badge/zeroalloc.net-0b1120?style=for-the-badge&logo=dotnet&logoColor=22d3ee" alt="ZeroAlloc.NET"></a>
   <a href="https://www.nuget.org/profiles/MarcelRoozekrans"><img src="https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet"></a>
   <a href="https://www.linkedin.com/in/marcelroozekrans/"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/sponsors/MarcelRoozekrans"><img src="https://img.shields.io/badge/Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor"></a>
 </p>
 
 <p align="center">
-  <strong>225+</strong> NuGet packages &nbsp;·&nbsp; <strong>1.3M+</strong> downloads &nbsp;·&nbsp; <strong>5</strong> MCP servers
+  <strong>245+</strong> NuGet packages &nbsp;·&nbsp; <strong>2.8M+</strong> downloads
 </p>
 
 ---
 
-I build tools that make other developers faster: compile-time code generation instead of runtime reflection, async-first abstractions over APIs that never got them, and infrastructure that gives AI agents real understanding of a codebase instead of a text search over it.
+Two things get most of my time: moving .NET work from runtime to compile time, so it is fast, allocation-free and Native AOT safe, and giving AI agents in .NET the building blocks they are missing: a framework, retrieval, calibrated decisions, guardrails and real tools.
 
 ## ZeroAlloc.NET
 
-A 102-package ecosystem where every dispatch, registration, mapping and validation rule is wired at compile time by a Roslyn source generator — no reflection, no boxing, Native AOT safe throughout.
+A 100+ package ecosystem where every dispatch, registration, mapping and validation rule is wired at compile time by a Roslyn source generator — no reflection, no boxing, Native AOT safe throughout.
 
 **[github.com/ZeroAlloc-Net](https://github.com/ZeroAlloc-Net)** · **[zeroalloc.net](https://zeroalloc.net)**
 
@@ -37,38 +38,29 @@ A 102-package ecosystem where every dispatch, registration, mapping and validati
 
 <sub>Plus Rest, Saga, Outbox, Pipeline, Scheduling, Serialisation, StateMachine, Resilience, Validation, ValueObjects, Results, Collections, Mapping, Telemetry, Specification, Authorization, AsyncEvents, Cache, Notify, Flux, TestHelpers and more.</sub>
 
-## AI & MCP infrastructure
+## AI for .NET
 
-Giving coding agents real tools instead of guesswork.
+A family of libraries for building AI agents in .NET on Microsoft.Extensions.AI, several of them built on ZeroAlloc.
 
 | Project | What it does |
 |---|---|
-| [**roslyn-codelens-mcp**](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/roslyn-codelens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) | 67 tools exposing Roslyn semantic analysis to AI agents — call graphs, DI graphs, diagnostics, code fixes, refactoring, test intelligence |
-| [**memorylens-mcp**](https://github.com/MarcelRoozekrans/memorylens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/memorylens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/memorylens-mcp) | .NET memory profiling — in-process heap snapshots, leak heuristics, actionable fix suggestions |
-| [**AI.Sentinel**](https://github.com/MarcelRoozekrans/AI.Sentinel) [![v](https://img.shields.io/nuget/v/AI.Sentinel?style=flat-square&label=)](https://www.nuget.org/packages/AI.Sentinel) | Security middleware for `IChatClient` — 55 detectors for the OWASP LLM Top 10 |
-| [**LongtermMemory-MCP**](https://github.com/MarcelRoozekrans/LongtermMemory-MCP) [![v](https://img.shields.io/npm/v/longterm-memory-mcp?style=flat-square&label=&logo=npm)](https://www.npmjs.com/package/longterm-memory-mcp) | Persistent semantic memory, fully local — SQLite + a local transformer, no API keys |
 | [**Thalos.NET**](https://github.com/MarcelRoozekrans/Thalos.NET) [![v](https://img.shields.io/nuget/v/Thalos.NET?style=flat-square&label=)](https://www.nuget.org/packages/Thalos.NET) | ZeroAlloc-native agent framework on Microsoft Agent Framework, with AI.Sentinel security and MCP tool sources |
-| [**Daedalus.NET**](https://github.com/MarcelRoozekrans/Daedalus.NET) | Reference application for Thalos.NET — AI task execution with Railway-Oriented Programming, Blazor and console front ends, orchestrated by Aspire |
+| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) [![v](https://img.shields.io/nuget/v/Rag.NET?style=flat-square&label=)](https://www.nuget.org/packages/Rag.NET) | Modular RAG pipeline — 73 packages covering chunking, vector stores, rerankers, data providers, evaluation |
 | [**Minos.NET**](https://github.com/MarcelRoozekrans/Minos.NET) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/Minos.NET?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/Minos.NET) | Unofficial client for TypeSafe's Jev decision models — typed questions in, calibrated probabilities out; source-generated, Native AOT safe |
-| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) [![v](https://img.shields.io/nuget/v/Rag.NET?style=flat-square&label=)](https://www.nuget.org/packages/Rag.NET) | Modular RAG pipeline on Microsoft.Extensions.AI — 73 packages covering chunking, vector stores, rerankers, data providers, evaluation |
-| [**Copilot-Skill-Bridge**](https://github.com/MarcelRoozekrans/Copilot-Skill-Bridge) | Brings Claude Code marketplace skills into GitHub Copilot |
-| [**superpowers-extensions**](https://github.com/MarcelRoozekrans/superpowers-extensions) | Regression testing, pre-push review and refactor analysis skills for Claude Code |
-| [**lucent-code**](https://github.com/lucent-org/lucent-code) | AI chat & completions for VS Code, driven by the language server |
+| [**AI.Sentinel**](https://github.com/MarcelRoozekrans/AI.Sentinel) [![v](https://img.shields.io/nuget/v/AI.Sentinel?style=flat-square&label=)](https://www.nuget.org/packages/AI.Sentinel) | Security middleware for `IChatClient` — 55 detectors for the OWASP LLM Top 10 |
+| [**Daedalus.NET**](https://github.com/MarcelRoozekrans/Daedalus.NET) | Reference application for Thalos.NET — AI task execution with Railway-Oriented Programming, Blazor and console front ends, orchestrated by Aspire |
 
-## Libraries & analyzers
+### Tools for coding agents
+
+MCP servers that give agents real understanding instead of a text search.
 
 | Project | What it does |
 |---|---|
-| [**AdoNet.Async**](https://github.com/MarcelRoozekrans/AdoNet.Async) [![v](https://img.shields.io/nuget/v/AdoNet.Async?style=flat-square&label=)](https://www.nuget.org/packages/AdoNet.Async) | Async-first ADO.NET — `await foreach` over rows, typed DataSets generated from XSD |
-| [**Owasp.Analyzers**](https://github.com/MarcelRoozekrans/Owasp.Analyzers) [![v](https://img.shields.io/nuget/v/Owasp.Analyzers?style=flat-square&label=)](https://www.nuget.org/packages/Owasp.Analyzers) | OWASP Top 10 2025 as Roslyn rules, with taint analysis for SSRF |
-| [**MailPeek**](https://github.com/MarcelRoozekrans/MailPeek) [![v](https://img.shields.io/nuget/v/MailPeek?style=flat-square&label=)](https://www.nuget.org/packages/MailPeek) | In-memory fake SMTP server with a live dashboard for ASP.NET Core |
-| [**BlazorNative**](https://github.com/MarcelRoozekrans/BlazorNative) [![v](https://img.shields.io/nuget/v/BlazorNative.Core?style=flat-square&label=)](https://www.nuget.org/packages/BlazorNative.Core) | Blazor components as native mobile widgets via NativeAOT — no WebView |
-| [**SSH.NET.Fork.Abstractions**](https://github.com/MarcelRoozekrans/SSH.NET.Fork.Abstractions) | Testable interface abstractions over SSH.NET |
-| [**System.Reflection.Abstractions**](https://github.com/MarcelRoozekrans/System.Reflection.Abstractions) | Mockable wrappers around the reflection API |
+| [**roslyn-codelens-mcp**](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/roslyn-codelens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) | 67 tools exposing Roslyn semantic analysis — call graphs, DI graphs, diagnostics, code fixes, refactoring, test intelligence |
+| [**memorylens-mcp**](https://github.com/MarcelRoozekrans/memorylens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/memorylens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/memorylens-mcp) | .NET memory profiling — in-process heap snapshots, leak heuristics, actionable fix suggestions |
+| [**LongtermMemory-MCP**](https://github.com/MarcelRoozekrans/LongtermMemory-MCP) [![v](https://img.shields.io/npm/v/longterm-memory-mcp?style=flat-square&label=&logo=npm)](https://www.npmjs.com/package/longterm-memory-mcp) | Persistent semantic memory, fully local — SQLite + a local transformer, no API keys |
 
-## Elsewhere
-
-[**Unearth**](https://github.com/MarcelRoozekrans/Unearth) — a read-only data-recovery and disk-forensics toolkit in pure Rust. Filesystem-aware undelete across FAT, exFAT, NTFS, ext2/3/4 and HFS+, signature carving of 150+ formats, lost-partition recovery — drivable from the shell or by an agent over MCP.
+<sub>More libraries, analyzers and tools: <a href="https://roozekrans.nl/projects">roozekrans.nl/projects</a>.</sub>
 
 ## GitHub activity
 
