@@ -27,14 +27,14 @@ A 100+ package ecosystem where every dispatch, registration, mapping and validat
 
 **[github.com/ZeroAlloc-Net](https://github.com/ZeroAlloc-Net)** · **[zeroalloc.net](https://zeroalloc.net)**
 
-| Package | What it does |
-|---|---|
-| [**Mediator**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Mediator) [![v](https://img.shields.io/nuget/v/ZeroAlloc.Mediator?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.Mediator) | Dispatch resolved at compile time — no dictionaries, no virtual calls |
-| [**ORM**](https://github.com/ZeroAlloc-Net/ZeroAlloc.ORM) [![v](https://img.shields.io/nuget/v/ZeroAlloc.ORM?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.ORM) | Raw-SQL data access from `[Query]`/`[Command]` partial methods |
-| [**Inject**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Inject) [![v](https://img.shields.io/nuget/v/ZeroAlloc.Inject?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.Inject) | Compile-time DI with a standalone AOT container |
-| [**Analyzers**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Analyzers) [![v](https://img.shields.io/nuget/v/ZeroAlloc.Analyzers?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.Analyzers) | Flags allocations, boxing and virtual dispatch on hot paths |
-| [**EventSourcing**](https://github.com/ZeroAlloc-Net/ZeroAlloc.EventSourcing) [![v](https://img.shields.io/nuget/v/ZeroAlloc.EventSourcing?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.EventSourcing) | Event streams, projections and aggregates, generated |
-| [**Templates**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Templates) [![v](https://img.shields.io/nuget/v/ZeroAlloc.Templates?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.Templates) | `dotnet new` Clean Architecture API wiring 12 of the libraries together |
+| Library | What it does | Package |
+|---|---|:---:|
+| [**Mediator**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Mediator) | Dispatch resolved at compile time — no dictionaries, no virtual calls | [![ZeroAlloc.Mediator](https://img.shields.io/nuget/v/ZeroAlloc.Mediator?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/ZeroAlloc.Mediator) |
+| [**ORM**](https://github.com/ZeroAlloc-Net/ZeroAlloc.ORM) | Raw-SQL data access from `[Query]`/`[Command]` partial methods | [![ZeroAlloc.ORM](https://img.shields.io/nuget/v/ZeroAlloc.ORM?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/ZeroAlloc.ORM) |
+| [**Inject**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Inject) | Compile-time DI with a standalone AOT container | [![ZeroAlloc.Inject](https://img.shields.io/nuget/v/ZeroAlloc.Inject?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/ZeroAlloc.Inject) |
+| [**Analyzers**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Analyzers) | Flags allocations, boxing and virtual dispatch on hot paths | [![ZeroAlloc.Analyzers](https://img.shields.io/nuget/v/ZeroAlloc.Analyzers?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/ZeroAlloc.Analyzers) |
+| [**EventSourcing**](https://github.com/ZeroAlloc-Net/ZeroAlloc.EventSourcing) | Event streams, projections and aggregates, generated | [![ZeroAlloc.EventSourcing](https://img.shields.io/nuget/v/ZeroAlloc.EventSourcing?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/ZeroAlloc.EventSourcing) |
+| [**Templates**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Templates) | `dotnet new` Clean Architecture API wiring 12 of the libraries together | [![ZeroAlloc.Templates](https://img.shields.io/nuget/v/ZeroAlloc.Templates?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/ZeroAlloc.Templates) |
 
 <sub>Plus Rest, Saga, Outbox, Pipeline, Scheduling, Serialisation, StateMachine, Resilience, Validation, ValueObjects, Results, Collections, Mapping, Telemetry, Specification, Authorization, AsyncEvents, Cache, Notify, Flux, TestHelpers and more.</sub>
 
@@ -42,23 +42,23 @@ A 100+ package ecosystem where every dispatch, registration, mapping and validat
 
 A family of libraries for building AI agents in .NET on Microsoft.Extensions.AI, several of them built on ZeroAlloc.
 
-| Project | What it does |
-|---|---|
-| [**Thalos.NET**](https://github.com/MarcelRoozekrans/Thalos.NET) [![v](https://img.shields.io/nuget/v/Thalos.NET?style=flat-square&label=)](https://www.nuget.org/packages/Thalos.NET) | ZeroAlloc-native agent framework on Microsoft Agent Framework, with AI.Sentinel security and MCP tool sources |
-| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) [![v](https://img.shields.io/nuget/v/Rag.NET?style=flat-square&label=)](https://www.nuget.org/packages/Rag.NET) | Modular RAG pipeline — 74 packages covering chunking, vector stores, rerankers, data providers, evaluation |
-| [**Minos.NET**](https://github.com/MarcelRoozekrans/Minos.NET) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/Minos.NET?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/Minos.NET) | Unofficial client for TypeSafe's Jev decision models — typed questions in, calibrated probabilities out; source-generated, Native AOT safe |
-| [**AI.Sentinel**](https://github.com/MarcelRoozekrans/AI.Sentinel) [![v](https://img.shields.io/nuget/v/AI.Sentinel?style=flat-square&label=)](https://www.nuget.org/packages/AI.Sentinel) | Security middleware for `IChatClient` — 56 detectors for the OWASP LLM Top 10 |
-| [**Daedalus.NET**](https://github.com/MarcelRoozekrans/Daedalus.NET) | Reference application for Thalos.NET — AI task execution with Railway-Oriented Programming, Blazor and console front ends, orchestrated by Aspire |
+| Project | What it does | Package |
+|---|---|:---:|
+| [**Thalos.NET**](https://github.com/MarcelRoozekrans/Thalos.NET) | ZeroAlloc-native agent framework on Microsoft Agent Framework, with AI.Sentinel security and MCP tool sources | [![Thalos.NET](https://img.shields.io/nuget/v/Thalos.NET?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/Thalos.NET) |
+| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) | Modular RAG pipeline — 74 packages covering chunking, vector stores, rerankers, data providers, evaluation | [![Rag.NET](https://img.shields.io/nuget/v/Rag.NET?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/Rag.NET) |
+| [**Minos.NET**](https://github.com/MarcelRoozekrans/Minos.NET) | Unofficial client for TypeSafe's Jev decision models — typed questions in, calibrated probabilities out; source-generated, Native AOT safe | [![Minos.NET.SystemOne](https://img.shields.io/nuget/v/Minos.NET.SystemOne?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/Minos.NET.SystemOne) |
+| [**AI.Sentinel**](https://github.com/MarcelRoozekrans/AI.Sentinel) | Security middleware for `IChatClient` — 56 detectors for the OWASP LLM Top 10 | [![AI.Sentinel](https://img.shields.io/nuget/v/AI.Sentinel?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/AI.Sentinel) |
+| [**Daedalus.NET**](https://github.com/MarcelRoozekrans/Daedalus.NET) | Reference application for Thalos.NET — AI task execution with Railway-Oriented Programming, Blazor and console front ends, orchestrated by Aspire | — |
 
 ### Tools for coding agents
 
 MCP servers that give agents real understanding instead of a text search.
 
-| Project | What it does |
-|---|---|
-| [**roslyn-codelens-mcp**](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/roslyn-codelens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) | 67 tools exposing Roslyn semantic analysis — call graphs, DI graphs, diagnostics, code fixes, refactoring, test intelligence |
-| [**memorylens-mcp**](https://github.com/MarcelRoozekrans/memorylens-mcp) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/memorylens-mcp?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/memorylens-mcp) | .NET memory profiling — in-process heap snapshots, leak heuristics, actionable fix suggestions |
-| [**LongtermMemory-MCP**](https://github.com/MarcelRoozekrans/LongtermMemory-MCP) [![v](https://img.shields.io/npm/v/longterm-memory-mcp?style=flat-square&label=&logo=npm)](https://www.npmjs.com/package/longterm-memory-mcp) | Persistent semantic memory, fully local — SQLite + a local transformer, no API keys |
+| Project | What it does | Package |
+|---|---|:---:|
+| [**roslyn-codelens-mcp**](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) | 67 tools exposing Roslyn semantic analysis — call graphs, DI graphs, diagnostics, code fixes, refactoring, test intelligence | [![RoslynCodeLens.Mcp](https://img.shields.io/nuget/v/RoslynCodeLens.Mcp?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/RoslynCodeLens.Mcp) |
+| [**memorylens-mcp**](https://github.com/MarcelRoozekrans/memorylens-mcp) | .NET memory profiling — in-process heap snapshots, leak heuristics, actionable fix suggestions | [![MemoryLens.Mcp](https://img.shields.io/nuget/v/MemoryLens.Mcp?style=flat-square&logo=nuget&label=nuget&color=004880)](https://www.nuget.org/packages/MemoryLens.Mcp) |
+| [**LongtermMemory-MCP**](https://github.com/MarcelRoozekrans/LongtermMemory-MCP) | Persistent semantic memory, fully local — SQLite + a local transformer, no API keys | [![longterm-memory-mcp](https://img.shields.io/npm/v/longterm-memory-mcp?style=flat-square&logo=npm&label=npm&color=cb3837)](https://www.npmjs.com/package/longterm-memory-mcp) |
 
 <sub>More libraries, analyzers and tools: <a href="https://roozekrans.nl/projects">roozekrans.nl/projects</a>.</sub>
 
