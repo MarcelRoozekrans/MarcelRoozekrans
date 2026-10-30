@@ -34,7 +34,7 @@ A 100+ package ecosystem where every dispatch, registration, mapping and validat
 | [**Inject**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Inject) [![v](https://img.shields.io/nuget/v/ZeroAlloc.Inject?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.Inject) | Compile-time DI with a standalone AOT container |
 | [**Analyzers**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Analyzers) [![v](https://img.shields.io/nuget/v/ZeroAlloc.Analyzers?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.Analyzers) | Flags allocations, boxing and virtual dispatch on hot paths |
 | [**EventSourcing**](https://github.com/ZeroAlloc-Net/ZeroAlloc.EventSourcing) [![v](https://img.shields.io/nuget/v/ZeroAlloc.EventSourcing?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.EventSourcing) | Event streams, projections and aggregates, generated |
-| [**Templates**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Templates) [![v](https://img.shields.io/nuget/v/ZeroAlloc.Templates?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.Templates) | `dotnet new` Clean Architecture API wiring 10 of the packages together |
+| [**Templates**](https://github.com/ZeroAlloc-Net/ZeroAlloc.Templates) [![v](https://img.shields.io/nuget/v/ZeroAlloc.Templates?style=flat-square&label=)](https://www.nuget.org/packages/ZeroAlloc.Templates) | `dotnet new` Clean Architecture API wiring 12 of the libraries together |
 
 <sub>Plus Rest, Saga, Outbox, Pipeline, Scheduling, Serialisation, StateMachine, Resilience, Validation, ValueObjects, Results, Collections, Mapping, Telemetry, Specification, Authorization, AsyncEvents, Cache, Notify, Flux, TestHelpers and more.</sub>
 
@@ -45,9 +45,9 @@ A family of libraries for building AI agents in .NET on Microsoft.Extensions.AI,
 | Project | What it does |
 |---|---|
 | [**Thalos.NET**](https://github.com/MarcelRoozekrans/Thalos.NET) [![v](https://img.shields.io/nuget/v/Thalos.NET?style=flat-square&label=)](https://www.nuget.org/packages/Thalos.NET) | ZeroAlloc-native agent framework on Microsoft Agent Framework, with AI.Sentinel security and MCP tool sources |
-| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) [![v](https://img.shields.io/nuget/v/Rag.NET?style=flat-square&label=)](https://www.nuget.org/packages/Rag.NET) | Modular RAG pipeline — 73 packages covering chunking, vector stores, rerankers, data providers, evaluation |
+| [**Rag.NET**](https://github.com/MarcelRoozekrans/Rag.NET) [![v](https://img.shields.io/nuget/v/Rag.NET?style=flat-square&label=)](https://www.nuget.org/packages/Rag.NET) | Modular RAG pipeline — 74 packages covering chunking, vector stores, rerankers, data providers, evaluation |
 | [**Minos.NET**](https://github.com/MarcelRoozekrans/Minos.NET) [![★](https://img.shields.io/github/stars/MarcelRoozekrans/Minos.NET?style=flat-square&label=&logo=github)](https://github.com/MarcelRoozekrans/Minos.NET) | Unofficial client for TypeSafe's Jev decision models — typed questions in, calibrated probabilities out; source-generated, Native AOT safe |
-| [**AI.Sentinel**](https://github.com/MarcelRoozekrans/AI.Sentinel) [![v](https://img.shields.io/nuget/v/AI.Sentinel?style=flat-square&label=)](https://www.nuget.org/packages/AI.Sentinel) | Security middleware for `IChatClient` — 55 detectors for the OWASP LLM Top 10 |
+| [**AI.Sentinel**](https://github.com/MarcelRoozekrans/AI.Sentinel) [![v](https://img.shields.io/nuget/v/AI.Sentinel?style=flat-square&label=)](https://www.nuget.org/packages/AI.Sentinel) | Security middleware for `IChatClient` — 56 detectors for the OWASP LLM Top 10 |
 | [**Daedalus.NET**](https://github.com/MarcelRoozekrans/Daedalus.NET) | Reference application for Thalos.NET — AI task execution with Railway-Oriented Programming, Blazor and console front ends, orchestrated by Aspire |
 
 ### Tools for coding agents
