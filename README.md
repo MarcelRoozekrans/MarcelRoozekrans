@@ -2,7 +2,7 @@
 
 <p align="center">
   .NET engineer building <strong>ZeroAlloc.NET</strong>, compile-time .NET without reflection,<br>
-  and <strong>AI libraries for .NET</strong>: agents, RAG, decisions and security. Based in Cruquius, the Netherlands.
+  and <strong>AI libraries for .NET</strong>: agents, RAG, decisions and security. Based in the Netherlands.
 </p>
 
 <p align="center">
@@ -10,6 +10,9 @@
   <a href="https://zeroalloc.net"><img src="https://img.shields.io/badge/zeroalloc.net-0b1120?style=for-the-badge&logo=dotnet&logoColor=22d3ee" alt="ZeroAlloc.NET"></a>
   <a href="https://www.nuget.org/profiles/MarcelRoozekrans"><img src="https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet"></a>
   <a href="https://www.linkedin.com/in/marcelroozekrans/"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://dotnet.social/@MarcelRoozekrans"><img src="https://img.shields.io/badge/Mastodon-6364ff?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon"></a>
+  <a href="https://bsky.app/profile/marcelroozekrans.bsky.social"><img src="https://img.shields.io/badge/Bluesky-0285ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Bluesky"></a>
+  <a href="https://dev.to/marcelroozekrans"><img src="https://img.shields.io/badge/dev.to-0a0a0a?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to"></a>
   <a href="https://github.com/sponsors/MarcelRoozekrans"><img src="https://img.shields.io/badge/Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor"></a>
 </p>
 
