@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <strong>245+</strong> NuGet packages &nbsp;·&nbsp; <strong>2.9M+</strong> downloads
+  <strong>270+</strong> NuGet packages &nbsp;·&nbsp; <strong>3.2M+</strong> downloads
 </p>
 
 ---
